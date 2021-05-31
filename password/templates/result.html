@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+{% block content%}
+<div class="container text-center">
+    <title><h1> RESULT </h1></title>
+    <br>
+    <br>
+    <h1> {{password}} </h1>
+    <br>
+        <a href="{% url 'password:home' %}", class="btn btn-secondary btn-sm"> Go Back </a>
+ 
+</div>
+{% endblock content%}
